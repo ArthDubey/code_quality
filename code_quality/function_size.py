@@ -6,7 +6,7 @@ def findFunctions(lines: list) -> list:
     i = 0
     while i < len(lines):
         line = lines[i]
-        line.strip()
+        line = line.strip()
         if line[:3] != 'def':
             i += 1
             continue
@@ -18,12 +18,13 @@ def findFunctions(lines: list) -> list:
 
 def functionSize(lines: list) -> int:
     functions = findFunctions(lines)
+    print("Functions are:", functions)
     sizes = []
     for function in functions:
         index, charPos = function
         runner = index + 1
         while lines[runner][:charPos+1] == " "*(charPos+1):
             runner += 1
-        size = runner - index
+        size = runner - index - 1
         sizes.append(size)
     return sizes
