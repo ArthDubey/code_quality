@@ -1,0 +1,10 @@
+-> Long if-else chain checks
+-> Redundancy check (Counter)
+-> Consistent casing (either camel, pascal, kebab or snake)
+-> Too many single letter variables
+-> Decent comments distribution
+-> Large function checks -- 30%
+
+
+Scores on everything
+
