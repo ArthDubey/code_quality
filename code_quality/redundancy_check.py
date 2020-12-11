@@ -12,7 +12,10 @@ def counterToDistribution(cnt: Counter) -> list:
     return dist
 
 
-def distributionRating(dist: list) -> list:
+def distributionRating(dist: list) -> int:
+    # empty document
+    if not dist:
+        return 100
     unique, total = len(dist), sum(dist)
     return (unique/total) * 100
 

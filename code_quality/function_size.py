@@ -37,7 +37,7 @@ def findFunctions(lines: list) -> list:
     return funs
 
 
-def functionSize(lines: list) -> int:
+def functionSize(lines: list) -> list:
     functions = findFunctions(lines)
     print("Functions are:", functions)
     sizes = []

@@ -26,3 +26,16 @@ case_3 = """myVar = 4
                 sum += size[i]
             iterate([1,2], myVar)
             myVar = 4"""
+
+case_4 = \
+    """
+# My comment
+def arth():
+    '''
+    This is a helpful comment
+    helping everything
+    '''
+    print("This is a good function)
+    # One more helpful statement
+ arth()
+"""
