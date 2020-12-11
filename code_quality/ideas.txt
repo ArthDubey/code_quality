@@ -3,7 +3,7 @@
 -> Consistent casing (either camel, pascal, kebab or snake)
 -> Too many single letter variables
 -> Decent comments distribution
--> Large function checks -- 30%
+-> Large function checks -- 80%
 
 
 Scores on everything
