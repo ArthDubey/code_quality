@@ -17,7 +17,7 @@
 
   <img alt="License" src="https://img.shields.io/github/license/ArthDubey/code_quality?color=56BEB8">
 
-  <img alt="Github issues" src="https://img.shields.io/github/issues/ArthDubey/code_quality?color=56BEB8" />
+  <img alt="Github issues" src="https://img.shields.io/github/issues/ArthDubey/code_quality?color=008000" />
 
   <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/ArthDubey/code_quality?color=56BEB8" /> -->
 
@@ -47,27 +47,36 @@
 
 ## :dart: About
 
-Describe your project
+Code quality is a light weight quality check library for Python project or a Python file. It is heavily inspired by the
+books of Robert C. Martin. It can be used as a consistent measure for readability and maintainability.
+
+How many times have you seen bulky functions, inconsistent casing for variables, long if-else chains and thought to
+yourself if there was a way to weed out such things before they make it to the Production environment...
+Well here's my answer to that. Feel free to use this as a check for your projects.
+
+Code quality will rate your projects on different parameters and also provide possible resolutions if any parameter
+score is low. The vision behind this tool is to not have readability and maintainability as best practices, but an
+industry standard.
 
 ## :sparkles: Features
 
 :heavy_check_mark: Feature 1;\
+Checks for readability by the principles defined by Robert C. Martin et al. Gives out a report with different scores.
 :heavy_check_mark: Feature 2;\
+Very lightweight and blazing fast tests. Optimized for heavy repositories.
 :heavy_check_mark: Feature 3;
+Gives out Possible resolution in case any paramter is lower than it should be. (As this is the first version, this feature
+is very limited)
 
 ## :rocket: Technologies
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Python](https://python.org/)
 
 ## :white_check_mark: Requirements
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Python](https://python.org/) installed.
 
 ## :checkered_flag: Starting
 
@@ -79,10 +88,10 @@ $ git clone https://github.com/ArthDubey/code_quality
 $ cd code_quality
 
 # Install dependencies
-$ yarn
+$ pip install -r requirements.txt
 
 # Run the project
-$ yarn start
+$ python -m code_quality -d {{project_filepath}}
 
 # The server will initialize in the <http://localhost:3000>
 ```
@@ -91,7 +100,7 @@ $ yarn start
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
-Made with :heart: by <a href="https://github.com/ArthDubey" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/ArthDubey" target="_blank">Arth Dubey</a>
 
 &#xa0;
 
