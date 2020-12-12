@@ -1,4 +1,4 @@
-GOOD_RATIO_OF_COMMENT_TO_CODE = [1, 5]
+from .constants import *
 
 
 def isComment(lines: list, index: int) -> tuple:
@@ -35,7 +35,7 @@ def commentsDistributionScore(lines: list) -> int:
     if ratio[1] == 0:
         return 100
     distributionScore = ratio[0] / ratio[1]
-    # Assuming 20% of comments are adequate
+    # Configurable by tweaking the constants
     goodRatioCoefficient = GOOD_RATIO_OF_COMMENT_TO_CODE[1] / \
         GOOD_RATIO_OF_COMMENT_TO_CODE[0]
     score = min(distributionScore * goodRatioCoefficient, 1.0)

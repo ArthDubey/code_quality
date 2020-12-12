@@ -1,6 +1,7 @@
 from .comments_disitribution import commentsDistributionScore
 from .document_size import rateDocuments
 from .redundancy_check import redundancy_check
+from .function_size import functionScore
 
 
 def completeCheck(filepath: str) -> list:
@@ -13,9 +14,11 @@ def completeCheck(filepath: str) -> list:
     commentsDistributionScoreForFile = commentsDistributionScore(lines)
     documentSizeScoreForFile = rateDocuments(lines)
     redundancyCheckScore = redundancy_check(lines)
+    functionScoreForFile = functionScore(lines)
 
     return {
-        "Comments Distribution Score": commentsDistributionScoreForFile,
+        "Readability Score": commentsDistributionScoreForFile,
         "Document Size Score": documentSizeScoreForFile,
-        "Redundancy Check Score": redundancyCheckScore
+        "Redundancy Check Score": redundancyCheckScore,
+        "Function size score": functionScoreForFile
     }

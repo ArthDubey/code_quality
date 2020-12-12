@@ -1,6 +1,4 @@
-BAD_FUNCTION_SIZE_THRESHOLD = 40
-OK_FUNCTION_SIZE_THRESHOLD = 30
-GOOD_FUNCTION_SIZE_THRESHOLD = 20  # LINES
+from .constants import *
 
 
 def rateFunctions(sizes: list) -> list:
@@ -18,6 +16,9 @@ def rateFunctions(sizes: list) -> list:
 def ratingToScore(rating: list) -> int:
     length, total = len(rating), sum(rating)
     upper_bound = 2*length
+    # Empty document
+    if upper_bound == 0:
+        return 100
     score = int((total/upper_bound) * 100)
     return score
 
@@ -39,13 +40,20 @@ def findFunctions(lines: list) -> list:
 
 def functionSize(lines: list) -> list:
     functions = findFunctions(lines)
-    print("Functions are:", functions)
+    #print("Functions are:", functions)
     sizes = []
     for function in functions:
         index, charPos = function
         runner = index + 1
-        while lines[runner][:charPos+1] == " "*(charPos+1):
+        while runner < len(lines) and lines[runner][:charPos+1] == " "*(charPos+1):
             runner += 1
         size = runner - index - 1
         sizes.append(size)
     return sizes
+
+
+def functionScore(lines: list) -> int:
+    sizes = functionSize(lines)
+    ratings = rateFunctions(sizes)
+    score = ratingToScore(ratings)
+    return score
