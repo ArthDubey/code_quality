@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-    name="code-quality",
-    packages=["code-quality"],
+    name="code_quality",
+    packages=["code_quality"],
     version=0.1,
     license="MIT",
     description="A light-weight library for testing code quality.",

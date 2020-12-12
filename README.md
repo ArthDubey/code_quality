@@ -6,7 +6,7 @@
   <!-- <a href="https://code_quality.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Code_quality</h1>
+<h1 align="center">Code quality</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/ArthDubey/code_quality?color=56BEB8">
@@ -15,14 +15,13 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/ArthDubey/code_quality?color=56BEB8">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
   <img alt="Github issues" src="https://img.shields.io/github/issues/ArthDubey/code_quality?color=008000" />
 
   <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/ArthDubey/code_quality?color=56BEB8" /> -->
 
   <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/ArthDubey/code_quality?color=56BEB8" /> -->
   <img alt="Build Status" src = "https://travis-ci.com/ArthDubey/code_quality.svg?branch=master">
+  <img alt="License" src = "https://img.shields.io/badge/License-MIT-yellow.svg">
 </p>
 
 <!-- Status -->
@@ -58,6 +57,17 @@ Code quality will rate your projects on different parameters and also provide po
 score is low. The vision behind this tool is to not have readability and maintainability as best practices, but an
 industry standard.
 
+## :checkered_flag: Installation and getting started
+
+```
+# Install
+pip install code-quality
+
+# Using
+python -m code_quality -d {{your project to test}}
+
+```
+
 ## :sparkles: Features
 
 :heavy_check_mark: Checks for readability by the principles defined by Robert C. Martin et al. Gives out a report with different scores.\
@@ -70,17 +80,6 @@ is very limited)
 The following tools were used in this project:
 
 - [Python](https://python.org/)
-
-## :checkered_flag: Installation and getting started
-
-```
-# Install
-pip install code-quality
-
-# Using
-python -m code_quality -d {{your project to test}}
-
-```
 
 ## :white_check_mark: Requirements
 
