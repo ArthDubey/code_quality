@@ -17,11 +17,12 @@
 
   <img alt="License" src="https://img.shields.io/github/license/ArthDubey/code_quality?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/ArthDubey/code_quality?color=56BEB8" /> -->
+  <img alt="Github issues" src="https://img.shields.io/github/issues/ArthDubey/code_quality?color=56BEB8" />
 
   <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/ArthDubey/code_quality?color=56BEB8" /> -->
 
   <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/ArthDubey/code_quality?color=56BEB8" /> -->
+  <img alt="Build Status" src = "https://travis-ci.com/ArthDubey/code_quality.svg?branch=master">
 </p>
 
 <!-- Status -->
