@@ -15,7 +15,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/ArthDubey/code_quality?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/ArthDubey/code_quality?color=56BEB8">
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   <img alt="Github issues" src="https://img.shields.io/github/issues/ArthDubey/code_quality?color=008000" />
 
@@ -71,11 +71,22 @@ The following tools were used in this project:
 
 - [Python](https://python.org/)
 
+## :checkered_flag: Installation and getting started
+
+```
+# Install
+pip install code-quality
+
+# Using
+python -m code_quality -d {{your project to test}}
+
+```
+
 ## :white_check_mark: Requirements
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Python](https://python.org/) installed.
 
-## :checkered_flag: Starting
+## :checkered_flag: Starting For Developers
 
 ```bash
 # Clone this project
