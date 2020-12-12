@@ -5,3 +5,5 @@ advices = {
     "Redundancy Check Score": "Divide large pieces of code into small reusable pieces of code.",
     "Function size score": "Keep functions small. Large functions get unmanageable over time."
 }
+
+# May add more checks and advices in future
