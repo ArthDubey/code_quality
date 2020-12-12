@@ -60,12 +60,9 @@ industry standard.
 
 ## :sparkles: Features
 
-:heavy_check_mark: Feature 1;\
-Checks for readability by the principles defined by Robert C. Martin et al. Gives out a report with different scores.
-:heavy_check_mark: Feature 2;\
-Very lightweight and blazing fast tests. Optimized for heavy repositories.
-:heavy_check_mark: Feature 3;
-Gives out Possible resolution in case any paramter is lower than it should be. (As this is the first version, this feature
+:heavy_check_mark: Checks for readability by the principles defined by Robert C. Martin et al. Gives out a report with different scores.\
+:heavy_check_mark: Very lightweight and blazing fast tests. Optimized for heavy repositories.\
+:heavy_check_mark: Gives out Possible resolution in case any paramter is lower than it should be. (As this is the first version, this feature
 is very limited)
 
 ## :rocket: Technologies
@@ -93,7 +90,7 @@ $ pip install -r requirements.txt
 # Run the project
 $ python -m code_quality -d {{project_filepath}}
 
-# The server will initialize in the <http://localhost:3000>
+# Report will be generated in terminal
 ```
 
 ## :memo: License
