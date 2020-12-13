@@ -8,6 +8,7 @@ setup(
     packages=["code_quality"],
     version="0.0.3",
     license="MIT",
+    install_requires=["termcolor"],
     description="A light-weight library for testing code quality.",
     long_description=long_description,
     long_description_content_type="text/markdown",

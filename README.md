@@ -63,7 +63,7 @@ industry standard.
 # Install
 pip install code-quality
 
-# Using
+# Using (notice that it's code underscore quality)
 python -m code_quality -d {{your project to test}}
 
 ```
@@ -72,8 +72,8 @@ python -m code_quality -d {{your project to test}}
 
 :heavy_check_mark: Checks for readability by the principles defined by Robert C. Martin et al. Gives out a report with different scores.\
 :heavy_check_mark: Very lightweight and blazing fast tests. Optimized for heavy repositories.\
-:heavy_check_mark: Gives out Possible resolution in case any paramter is lower than it should be. (As this is the first version, this feature
-is very limited)
+:heavy_check_mark: Gives out Possible resolution in case any paramter is lower than it should be. (As this is the first version, this feature is very limited)
+:heavy_check_mark: Zero configuration required. You can install and start running checks automatically.
 
 ## :rocket: Technologies
 
@@ -101,6 +101,9 @@ $ pip install -r requirements.txt
 $ python -m code_quality -d {{project_filepath}}
 
 # Report will be generated in terminal
+
+# Running tests
+pytest
 ```
 
 ## :memo: License
