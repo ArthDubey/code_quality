@@ -1,11 +1,16 @@
 from distutils.core import setup
 
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
     name="code_quality",
     packages=["code_quality"],
-    version=0.1,
+    version="0.3.1",
     license="MIT",
     description="A light-weight library for testing code quality.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author="Arth Dubey",
     author_email="arthdubey07@gmail.com",
     url="https://github.com/ArthDubey/code_quality",
