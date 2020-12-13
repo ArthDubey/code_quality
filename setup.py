@@ -6,7 +6,7 @@ with open("README-pypi.md", "r") as fh:
 setup(
     name="code_quality",
     packages=["code_quality"],
-    version="0.0.3",
+    version="0.0.4",
     license="MIT",
     install_requires=["termcolor"],
     description="A light-weight library for testing code quality.",

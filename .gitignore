@@ -3,3 +3,7 @@ dist/*
 MANIFEST
 __pycache__/
 code_quality.egg-info
+.DS_Store
+.pytest_cache
+.vscode
+setup.cfg
