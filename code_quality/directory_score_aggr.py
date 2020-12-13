@@ -1,8 +1,8 @@
 import os
 from .complete_check import completeCheck
-from .reporting_module.report import summaryFromScore
+from .report import summaryFromScore
 from termcolor import colored
-from .reporting_module.consistent_padding_line import consistentPadding
+from .consistent_padding_line import consistentPadding
 
 
 def allPythonFilesOfADir(dirPath: str) -> list:

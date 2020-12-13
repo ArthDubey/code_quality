@@ -1,0 +1,5 @@
+README-pypi.md
+dist/*
+MANIFEST
+__pycache__/
+code_quality.egg-info
